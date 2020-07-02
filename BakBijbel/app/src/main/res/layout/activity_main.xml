@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="99dp"
+            android:layout_height="59dp"
+            android:layout_alignBottom="@+id/toolbar"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="-3dp"
+            android:layout_marginRight="-3dp"
+            android:layout_marginBottom="-3dp"
+            android:contentDescription="@string/app_name"
+            android:text="Login" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/searchBar"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1" />
+
+        <SearchView
+            android:id="@+id/searchBar"
+            android:layout_width="318dp"
+            android:layout_height="55dp"
+            android:layout_below="@+id/toolbar"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="-56dp"
+            android:layout_marginEnd="93dp"
+            android:layout_marginRight="93dp">
+
+        </SearchView>
+
+
+        <LinearLayout
+            android:layout_width="165dp"
+            android:layout_height="204dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="210dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="490dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginRight="18dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/receptFoto6"
+                android:layout_width="165dp"
+                android:layout_height="145dp"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/receptTxt6"
+                android:layout_width="165dp"
+                android:layout_height="52dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="165dp"
+            android:layout_height="204dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginLeft="123dp"
+            android:layout_marginTop="310dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/receptFoto3"
+                android:layout_width="165dp"
+                android:layout_height="145dp"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/receptTxt3"
+                android:layout_width="165dp"
+                android:layout_height="52dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="165dp"
+            android:layout_height="201dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="210dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginRight="18dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/receptFoto2"
+                android:layout_width="165dp"
+                android:layout_height="145dp"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/receptTxt2"
+                android:layout_width="165dp"
+                android:layout_height="52dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="165dp"
+            android:layout_height="204dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginLeft="123dp"
+            android:layout_marginTop="490dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/receptFoto5"
+                android:layout_width="165dp"
+                android:layout_height="145dp"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/receptTxt5"
+                android:layout_width="165dp"
+                android:layout_height="52dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="165dp"
+            android:layout_height="204dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="310dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginRight="18dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="232dp">
+
+            <ImageButton
+                android:id="@+id/receptFoto4"
+                android:layout_width="165dp"
+                android:layout_height="145dp"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/receptTxt4"
+                android:layout_width="165dp"
+                android:layout_height="52dp" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/Recept">
+
+            <ImageButton
+                android:id="@+id/receptFoto1"
+                android:layout_width="165dp"
+                android:layout_height="145dp"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/receptTxt1"
+                android:layout_width="165dp"
+                android:layout_height="52dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BakBijbel</string>
+    <string name="channel_name">test</string>
+    <string name="recept_photo">recept_photo</string>
+    <string name="title_recept">Kapsalon</string>
+    <string name="description_recept">Verwarm de oven voor op 200 °C. Bak de frites in ca. 25 min. in de oven goudbruin. Verhit ondertussen een koekenpan met antiaanbaklaag en bak de shoarma zonder boter of olie in 8 min. bruin en gaar. Schep de friet in de aluminium schaal en schep de shoarma erop. Verdeel de kaas over de shoarma en zet ca. 5 min. in de oven tot de kaas is gesmolten. Halveer ondertussen de komkommer in de lengte en snijd in plakjes. Snijd de tomaten in dunne plakken. Neem de schaal uit de oven en verdeel de sla, tomaat en komkommer erover. Besprenkel met de knoflooksaus.</string>
+    <string name="bereidingstijd">Bereidingstijd: 20 minuten</string>
+    <string name="login">Login</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>
